@@ -1,0 +1,50 @@
+
+  body{
+    margin: 0;
+  }
+  .navh {
+	
+	margin-bottom: 1px;
+	font-weight: bolder;
+  list-style: none;
+	display: inline-block;
+	text-align: right;
+
+	background-color:rgb(71, 167, 212);
+	padding: 5px;
+	
+	width: 100%;
+}
+.nav-bottomh{
+	margin-bottom: 5px;
+	font-weight: bolder;
+	font-size: 18px;
+	list-style: none;
+	display: inline-block;
+}
+
+.list-itemh {
+	display: inline-block !important;
+  margin: 5px;
+  padding:5px;
+	text-align: right;
+}
+
+.nav-itemh {
+	color: rgba(1,1,1,0.5);
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+
+.nav-itemh:hover {
+	color: rgba(1,1,1,1);
+	transition-duration: 0.3s;
+}
+
+.top1{
+  margin: 10px;
+	float:left; 
+	font-weight: bolder;
+	font-size: 18px;
+	
+}

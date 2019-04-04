@@ -1,0 +1,49 @@
+body{
+	background-color: rgb(51,157,255);
+	margin: 0 !important;
+	overflow-x: hidden;
+}
+
+span{
+background-color: #FFFFFF;
+
+}
+
+#page-container {
+	position: relative;
+	min-height: 100vh;
+}
+
+#content-wrap {
+	padding-bottom: 2.5rem;
+}
+
+#footer{
+	position:absolute;
+	bottom: 0;
+	width: 100%;
+	height: 2.5rem;
+}
+
+.list{
+	float: left;
+	width: 10%;
+	min-height: 100vh;
+	background-color: rgb(33, 87, 187);
+}
+
+.content{
+	float: left;
+	width: 90%;
+	background-color: rgba(200, 216, 221, 0.966);
+	min-height: 100vh;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.padded {
+	padding: 20px;
+}

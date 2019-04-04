@@ -1,0 +1,44 @@
+body {
+	background-color: #F0F8FF;
+	margin: 0 !important;
+}
+
+span {
+	background-color: rgba(192, 240, 255, 0.966);
+}
+
+
+h1{
+	color: rgba(192, 240, 255, 0.966);
+	font-size: 80px;
+}
+
+button {
+    background: orange;
+    border-radius:10px;
+    -ms-touch-action: auto;
+}
+.list{
+
+	float: left;
+	width: 10%;
+	min-height: 100vh;
+	background-color: rgb(33, 87, 187);
+}
+.content{
+
+	float: left;
+	width: 90%;
+	background-color: rgba(200, 216, 221, 0.966);
+	min-height: 100vh;
+}
+
+.padded {
+	padding: 20px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
